@@ -83,6 +83,7 @@ html {
     height: 290px;
     background-color: white;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .content-info {
@@ -133,6 +134,8 @@ a:hover, a:active {
     height: 110px;
     background-color: cadetblue;
     display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer {
@@ -142,4 +145,10 @@ a:hover, a:active {
     font-weight: bold;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+@media only screen (max-width: 480px) {
+    html {
+        width: 100%;
+    }
 }
