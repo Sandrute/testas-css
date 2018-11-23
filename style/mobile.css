@@ -1,0 +1,138 @@
+@media only screen and (max-width: 480px) {
+    html {
+        width: 100% px;
+    }
+
+    .container {
+        width: 480px;
+    }
+
+    .logo {
+        height: 70px;
+        background-color: white;
+
+    }
+
+    .main-menu {
+        height: 50px;
+        background-color: #152733;
+    }
+
+    .main-menu ul {
+        color: white;
+    }
+
+    .main-menu li {
+        float: left;
+        margin-right: 20px;
+        line-height: 50px;
+        display: inline-block;
+    }
+
+    .nr {
+        background-color: #39414c;
+        padding: 7px 8px;
+        border-radius: 100px;
+        display: inline-block;
+        margin-left: 2px;
+        line-height: 10px;
+    }
+
+    .fb {
+        float: right;
+        color: white;
+        font-size: 30px;
+        line-height: 53px;
+        margin-right: 30px;
+    }
+
+    .header-img {
+        height: 200px;
+        background-color: #9fbc2e;
+    }
+
+    .info {
+        text-align: left;
+    }
+
+    .info123 {
+        width: 390px;
+        background-color: white;
+        display: inline-block;
+        text-wrap: none;
+        padding: 15px;
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    .info ul li {
+        display: inline-block;
+    }
+
+    .content {
+        width: 463px;
+        height: 270px;
+        background-color: white;
+        display: inline-block;
+    }
+}
+
+.content-info {
+    width: 430px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.content-sub {
+    width: 430px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.navigation {
+    width: 250px;
+    float: right top;
+    margin-right: 15px;
+    position: relative;
+    top: 25px;
+}
+
+a:link, a:visited {
+    background-color: #e8e8e8;
+    padding: 14px 25px;
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    background-color: #dfdfdf;
+}
+
+.nr2 {
+    background-color: #d6d6d6;
+    color: #939393;
+    padding: 2px 8px;
+    border-radius: 50px;
+    float: right;
+}
+
+.gallery {
+    width: 197px;
+    height: 110px;
+    background-color: cadetblue;
+    display: inline-block;
+}
+
+.footer {
+    width: 770px;
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}

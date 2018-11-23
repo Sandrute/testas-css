@@ -5,18 +5,20 @@
 
 html {
     background-color: darkgray;
-    margin: auto;
+}
+
+.container {
+    width: 800px;
+    text-align: center;
 }
 
 .logo {
-    width: 800px;
     height: 70px;
     background-color: white;
 
 }
 
 .main-menu {
-    width: 800px;
     height: 50px;
     background-color: #152733;
 }
@@ -35,42 +37,42 @@ html {
 
 .nr {
     background-color: #39414c;
-    padding: 0px 20px;
+    padding: 7px 8px;
     border-radius: 100px;
     display: inline-block;
     margin-left: 2px;
-
+    line-height: 10px;
 }
 
 .fb {
     float: right;
-    position: relative;
-    top: 8px;
-    right: 30px;
     color: white;
     font-size: 30px;
+    line-height: 53px;
+    margin-right: 30px;
 }
 
 .header-img {
-    width: 800px;
     height: 290px;
     background-color: #9fbc2e;
 }
 
 .info {
-    text-align: center;
+    text-align: left;
 }
 
 .info123 {
-    width: 234px;
-    height: 160px;
+    width: 220px;
     background-color: white;
     display: inline-block;
     text-wrap: none;
     padding: 15px;
     font-size: 14px;
-    position: relative;
-    right: 18px;
+    margin-right: 21px;
+}
+
+.info123:last-of-type {
+    margin-right: 0px;
 }
 
 .info ul li {
@@ -78,9 +80,9 @@ html {
 }
 
 .content {
-    width: 800px;
     height: 290px;
     background-color: white;
+    text-align: left;
 }
 
 .content-info {
@@ -123,33 +125,13 @@ a:hover, a:active {
     color: #939393;
     padding: 2px 8px;
     border-radius: 50px;
+    float: right;
 }
 
-.gallery1 {
-     width: 197px;
-     height: 110px;
-     background-color: cadetblue;
-     display: inline-block;
- }
-
-.gallery2 {
+.gallery {
     width: 197px;
     height: 110px;
-    background-color: green;
-    display: inline-block;
-}
-
-.gallery3 {
-    width: 197px;
-    height: 110px;
-    background-color: orange;
-    display: inline-block;
-}
-
-.gallery4 {
-    width: 197px;
-    height: 110px;
-    background-color: red;
+    background-color: cadetblue;
     display: inline-block;
 }
 
