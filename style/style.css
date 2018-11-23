@@ -12,6 +12,10 @@ html {
     text-align: center;
 }
 
+.container2 {
+    text-align: left;
+}
+
 .logo {
     height: 70px;
     background-color: white;
@@ -147,8 +151,76 @@ a:hover, a:active {
     padding-right: 15px;
 }
 
-@media only screen (max-width: 480px) {
-    html {
+@media only screen and (max-width: 480px) {
+    .container {
         width: 100%;
     }
+
+    .main-menu li {
+        float: left;
+        margin-right: 15px;
+        line-height: 50px;
+        display: inline-block;
+    }
+
+    .header-img {
+        height: 200px;
+        background-color: #9fbc2e;
+    }
+
+    .info123 {
+        width: 94%;
+        background-color: white;
+        display: inline-block;
+        padding: 15px;
+        font-size: 14px;
+        margin-right: 21px;
+    }
+
+    .content {
+        height: unset;
+        background-color: white;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .content-info {
+        width: 448px;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+
+    .content-sub {
+        width: 448px;
+        float: left;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .navigation {
+        width: 97%;
+        margin-right: 15px;
+    }
+
+    a:link, a:visited {
+        background-color: #e8e8e8;
+        padding: 14px 8px;
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .gallery {
+        width: 80%;
+        height: 150px;
+        background-color: cadetblue;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container2 {
+        text-align: center;
+    }
+
 }
