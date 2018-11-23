@@ -1,0 +1,164 @@
+* {
+    margin: auto;
+    font-family: Calibri;
+}
+
+html {
+    background-color: darkgray;
+    margin: auto;
+}
+
+.logo {
+    width: 800px;
+    height: 70px;
+    background-color: white;
+
+}
+
+.main-menu {
+    width: 800px;
+    height: 50px;
+    background-color: #152733;
+}
+
+.main-menu ul {
+    color: white;
+
+}
+
+.main-menu li {
+    float: left;
+    margin-right: 30px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.nr {
+    background-color: #39414c;
+    padding: 0px 20px;
+    border-radius: 100px;
+    display: inline-block;
+    margin-left: 2px;
+
+}
+
+.fb {
+    float: right;
+    position: relative;
+    top: 8px;
+    right: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.header-img {
+    width: 800px;
+    height: 290px;
+    background-color: #9fbc2e;
+}
+
+.info {
+    text-align: center;
+}
+
+.info123 {
+    width: 234px;
+    height: 160px;
+    background-color: white;
+    display: inline-block;
+    text-wrap: none;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+    right: 18px;
+}
+
+.info ul li {
+    display: inline-block;
+}
+
+.content {
+    width: 800px;
+    height: 290px;
+    background-color: white;
+}
+
+.content-info {
+    width: 500px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.content-sub {
+    width: 500px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.navigation {
+    width: 250px;
+    float: right top;
+    margin-right: 15px;
+    position: relative;
+    top: 25px;
+}
+
+a:link, a:visited {
+    background-color: #e8e8e8;
+    padding: 14px 25px;
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    background-color: #dfdfdf;
+}
+
+.nr2 {
+    background-color: #d6d6d6;
+    color: #939393;
+    padding: 2px 8px;
+    border-radius: 50px;
+}
+
+.gallery1 {
+     width: 197px;
+     height: 110px;
+     background-color: cadetblue;
+     display: inline-block;
+ }
+
+.gallery2 {
+    width: 197px;
+    height: 110px;
+    background-color: green;
+    display: inline-block;
+}
+
+.gallery3 {
+    width: 197px;
+    height: 110px;
+    background-color: orange;
+    display: inline-block;
+}
+
+.gallery4 {
+    width: 197px;
+    height: 110px;
+    background-color: red;
+    display: inline-block;
+}
+
+.footer {
+    width: 770px;
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
